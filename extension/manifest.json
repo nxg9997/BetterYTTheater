@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "Better YouTube Theater",
+    "version": "1.0",
+  
+    "description": "Makes YoutTube live streams easier to watch",
+  
+    "icons": {
+      "48": "icons/icon-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["theater.js"]
+      }
+    ]
+  
+  }
+  

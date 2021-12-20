@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#top-menu {
+    height: 5vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#theater-mode {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: fixed;
+}
+
+#video-stream {
+    width: 80vw;
+    height: 45vw;
+}
+
+#chat {
+    width: 20vw;
+    height: 100vh;
+}
+
+#left-column {
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    max-width: 80vw;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#left-column::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+}
+
+.pad-left {
+    padding-left: 1vw;
+}
+
+.pad-right {
+    padding-right: 1vw;
+}
+
+.margin-left {
+    margin-left: 1vw;
+}
+
+.margin-right {
+    margin-right: 1vw;
+}
+
+#video-title {
+    border-bottom: 1px solid grey;
+}
+
+#channel-name {
+    font-size: .5vw;
+    background-color: red;
+    border-radius: .3vw;
+}
+
+.flex-hor {
+    display: flex;
+    flex-direction: row;
+}
+
+#channel-name:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#channel-name a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#app-info {
+    border-top: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#app-info p, #app-info i {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#video-description a {
+    color: rgb(50, 180, 255);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
